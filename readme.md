@@ -1,1 +1,1 @@
-# Fast Weather extension `v1.0`
+# Fast Weather extension `v1.1`
