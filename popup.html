@@ -4,15 +4,21 @@
 <head>
     <meta charset="UTF-8">
     <title>Fast weather pupup</title>
+    
     <script src="./popup.js" async></script>
+
+    <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
     <div class="modal-header">
-        <h1>Швидка погода <span class="version">(1.0)</span></h1>
+        <h1>Швидка погода <span class="version">(1.1)</span></h1>
+        <div class="weather-icon">
+            <img id="w-icon" src="img/sun.svg" alt="">
+        </div>
     </div>
     <div class="modal-content">
-        <button class="test">Оновити погоду</button>
+       <!-- <button class="test">Оновити погоду</button>-->
         <div class="current-weather">
             <span class="curr-temp">НАжми на кнопку</span>
             <span class="curr-desc">ЗНажми на кнопку</span>
@@ -24,77 +30,6 @@
         </div>
     </div>
 </body>
-<style>
-    .days7-weather{
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        flex-wrap: wrap;
-    }
-    
-    .dw-item{
-        width: 90px;
-        height: 119px;
-        border: 1px solid silver;
-        border-radius: 10px;
-        margin-bottom: 10px;
-    }
-    .test{
-        border: none;
-        font-size: 18px;
-        padding: 5px 10px;
-        border-radius: 10px;
-    }
-    body {
-        font-family: 'Open Sans', sans-serif;
-        font-size: 14px;
-        margin: 0;
-        min-height: 180px;
-        padding: 0;
-        width: 380px;
-        border: 1px solid silver;
-        background-color: #fff;
-    }
 
-    .modal-header {
-        display: flex;
-        justify-content: center;
-        text-align: center;
-        background: #FDFCFC;
-    }
-    
-    .modal-content{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-    }
-
-    .current-weather{
-        padding: 32px 0;
-       
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-
-        text-align: center;
-
-        color: #2C2C2C;
-        font-weight: 600;
-        font-size: 30px;
-    }
-    .curr-temp{
-        padding-bottom: 16px;
-    }
-
-    .curr-data{
-        font-size: 16px;
-        margin-top: 15px;
-        border: 1px solid silver;
-        border-radius: 10px;
-        padding: 5px;
-    }
-</style>
 
 </html>
