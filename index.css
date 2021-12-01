@@ -90,3 +90,28 @@ body {
     border-radius: 10px;
     padding: 5px;
 }
+.city-btn{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 10px;
+}
+
+.btn{
+    width: 100px;
+    background-color: #fff;
+    border: 1px solid silver;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.c-M{
+
+}
+
+.c-I{
+
+}
+
+.active{
+    
+}
